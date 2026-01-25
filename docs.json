@@ -24,7 +24,7 @@
             "pages": [
               "campaign-content",
               "payment-tiers",
-              "payment-gateway-integration",
+              "payment-gateway-integrations",
               "crm-integrations",
               "share-campaign",
               "embed-campaign"
@@ -104,7 +104,7 @@
     },
     {
       "source": "/app/page/1SQrq1n1ej-lKNt3jUa4ddmJSv5GO-xBYOwZKQLzyiiw",
-      "destination": "/payment-gateway-integration"
+      "destination": "/payment-gateway-integrations"
     },
     {
       "source": "/app/page/1XsRIHijdeeWiUzpVsCdcN1RQ9n8TwI-e6qQaGCwxFUU",
