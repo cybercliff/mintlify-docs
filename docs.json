@@ -40,6 +40,12 @@
             ]
           },
           {
+            "group": "Support",
+            "pages": [
+              "support"
+            ]
+          },
+          {
             "group": "Customization",
             "pages": [
               "essentials/settings",
