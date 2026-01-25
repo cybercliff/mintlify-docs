@@ -14,11 +14,9 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "quickstart-guide"
             ]
           },
           {
@@ -30,6 +28,15 @@
               "crm-integrations",
               "share-campaign",
               "embed-campaign"
+            ]
+          },
+          {
+            "group": "Campaign Administration",
+            "pages": [
+              "bulk-import-members",
+              "donor-account",
+              "download-payments",
+              "email-member-link"
             ]
           },
           {
