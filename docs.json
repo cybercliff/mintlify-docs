@@ -116,13 +116,6 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
-  "customScripts": [
-    {
-      "src": "https://cloud.umami.is/script.js",
-      "defer": true,
-      "data-website-id": "e77e54c0-095f-407b-ba46-f06faa159acd"
-    }
-  ],
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
