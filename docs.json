@@ -63,5 +63,55 @@
   },
   "footer": {
     "socials": {}
-  }
+  },
+  "redirects": [
+    {
+      "source": "/app/page/1Dc4ii_RQmiU51drbTs_zjQj6OYB3V5ebK1kqSWKGPf0",
+      "destination": "/quickstart-guide"
+    },
+    {
+      "source": "/app/page/1zf0QMTTlDgSS9t68EU_5oP3gg6KzqE0H5oI9_boul-c",
+      "destination": "/campaign-content"
+    },
+    {
+      "source": "/app/page/19mmxSZJwqh_TwNGKtZFiM032aG2AGDOzGxDXNGqTgnI",
+      "destination": "/crm-integrations"
+    },
+    {
+      "source": "/app/page/1Uw9pj02RjeVOI7Ie6QZx7auBN4q15hbjvdmMNDWzEJs",
+      "destination": "/embed-campaign"
+    },
+    {
+      "source": "/app/page/1SQrq1n1ej-lKNt3jUa4ddmJSv5GO-xBYOwZKQLzyiiw",
+      "destination": "/payment-gateway-integration"
+    },
+    {
+      "source": "/app/page/1XsRIHijdeeWiUzpVsCdcN1RQ9n8TwI-e6qQaGCwxFUU",
+      "destination": "/payment-tiers"
+    },
+    {
+      "source": "/app/page/1xH8gdR5MlH4deXAv_9ZHU53TGC7qnXLAew_UxdkS9PQ",
+      "destination": "/share-campaign"
+    },
+    {
+      "source": "/app/page/18UTzO5cZ_fV5o0gpTeSj_JbWo_x_xKc7IB5XgSaWcPY",
+      "destination": "/bulk-import-members"
+    },
+    {
+      "source": "/app/page/1dacGiKAAfPbzG0QC0gnlHqxFEslKTOcTiV53dmKj2Hs",
+      "destination": "/donor-account"
+    },
+    {
+      "source": "/app/page/1FBNe3sBcqIGo6Y0Fk1Tz1P-iRN-BKRWY0vEVK_nI9BQ",
+      "destination": "/download-payments"
+    },
+    {
+      "source": "/app/page/1Zaq4aOdY0sgTQSkJAE2V3Ip0HopaqD1gsDe7UL5rn-M",
+      "destination": "/email-member-link"
+    },
+    {
+      "source": "/app/page/167MY3esDvvIfUZboNLIHbOi8XXGBb_eTl-XAaIStc6U",
+      "destination": "/support"
+    }
+  ]
 }
