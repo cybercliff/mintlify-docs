@@ -9,37 +9,58 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "quickstart-guide"
+        "tab": "Organization",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "quickstart-guide"
+            ]
+          },
+          {
+            "group": "Campaign Setup",
+            "pages": [
+              "campaign-content",
+              "payment-tiers",
+              "payment-gateway-integration",
+              "crm-integrations",
+              "share-campaign",
+              "embed-campaign"
+            ]
+          },
+          {
+            "group": "Campaign Administration",
+            "pages": [
+              "bulk-import-members",
+              "donor-account",
+              "download-payments",
+              "email-member-link"
+            ]
+          }
         ]
       },
       {
-        "group": "Campaign Setup",
-        "pages": [
-          "campaign-content",
-          "payment-tiers",
-          "payment-gateway-integration",
-          "crm-integrations",
-          "share-campaign",
-          "embed-campaign"
+        "tab": "Donor",
+        "groups": [
+          {
+            "group": "Coming Soon",
+            "pages": [
+              "donor-coming-soon"
+            ]
+          }
         ]
       },
       {
-        "group": "Campaign Administration",
-        "pages": [
-          "bulk-import-members",
-          "donor-account",
-          "download-payments",
-          "email-member-link"
-        ]
-      },
-      {
-        "group": "Contact & Support",
-        "pages": [
-          "support"
+        "tab": "General",
+        "groups": [
+          {
+            "group": "Contact & Support",
+            "pages": [
+              "support"
+            ]
+          }
         ]
       }
     ]
