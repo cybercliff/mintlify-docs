@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "MyChaiClub Docs",
+  "logoTitle": "MyChaiClub Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -65,10 +66,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/mychaiclub-logo.png",
-    "dark": "/logo/mychaiclub-logo.png"
-  },
+  "logo": "/logo/logo.svg",
   "navbar": {
     "links": [
       {
