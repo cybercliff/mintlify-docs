@@ -1,0 +1,92 @@
+---
+title: 'Payment Gateway Integrations'
+description: 'Connect your payment gateway to process donations directly'
+---
+
+Donations are processed directly through your organization's payment gateway. After integration, test with a demo transaction to verify everything works correctly.
+
+## Step 1: Open Payment Gateway Settings
+
+1. Login to [mychaiclub.com](https://mychaiclub.com) and navigate to **Settings** in the top menu
+2. Scroll to the **Payment Gateways** section
+3. Select your preferred payment gateway
+
+## Step 2: Retrieve Your API Keys
+
+<AccordionGroup>
+  <Accordion title="Stripe" icon="stripe">
+    [Login to Stripe](https://dashboard.stripe.com/login). If you don't have a Stripe account, you can [create one here](https://dashboard.stripe.com/register). Make sure your account is live and activated before proceeding. If your account is not live, an orange warning banner will usually appear at the top.
+
+    ### What You Need
+
+    - **Publishable Key**
+    - **Restricted Key** (a secret key with limited permissions for security)
+
+    <Note>
+      Stripe's interface updates frequently, so your screen may differ slightly from these instructions. See the [Stripe documentation](https://stripe.com/docs/keys) for additional help. The key requirement is granting write permissions for the items listed in step 7.
+    </Note>
+
+    ### Setup Instructions
+
+    1. Login to [stripe.com](https://stripe.com)
+    2. Click **Developers** (bottom left) → **API Keys** tab
+    3. Copy the **Publishable Key** (starts with `pk_live`) and paste it in the modal on mychaiclub.com
+    4. Click **Create Restricted Key**
+    5. Select **"Providing this key to another website"** → Continue
+    6. Enter `mychaiclub` for **Name** and `mychaiclub.com` for **URL**. Check **"Customize permissions for this key"** → Continue
+    7. Enable **Write** permissions for:
+       - Charges
+       - Customers
+       - PaymentIntents
+       - PaymentMethods
+    8. Click **Create Key**
+    9. Copy the key (starts with `rk_live`) and paste it in the modal on mychaiclub.com
+    10. Click **Save**
+  </Accordion>
+
+  <Accordion title="PayArc & ChabadOne Pay" icon="credit-card">
+    ### What You Need
+
+    - **Client ID**
+    - **API Token**
+
+    ### Setup Instructions
+
+    1. Login to [payarc.net](https://payarc.net) (ChabadOne Pay users: [chabadone.payarc.net](https://chabadone.payarc.net))
+    2. Navigate to **API** → **API Tab**
+    3. Click **Add Token**
+    4. Copy the **Client ID** and paste it in the modal on mychaiclub.com
+    5. Copy the **API Token** (click reveal if needed) and paste it in the modal on mychaiclub.com
+    6. Click **Save**
+  </Accordion>
+
+  <Accordion title="Authorize.net" icon="building">
+    Contact support for integration instructions.
+  </Accordion>
+
+  <Accordion title="Chabad Management Solutions (CMS)" icon="building-columns">
+    Use an existing donation form or create a new one with the required fields below.
+
+    ### Create a Donation Form
+
+    1. Login to your CMS account
+    2. Go to **Settings** → **Web Forms Integration** → **SET UP MODULE**
+    3. Click **CREATE**
+    4. Add these required field groups:
+       - Contact Information
+       - Payment Information
+    5. In the **Settings** tab, complete all required fields
+    6. In the **Advanced Options** tab, enable **"Allow API access"**
+    7. Click **Save**
+
+    ### Contact Support
+
+    Contact support and send the following information:
+    - **iFrame code** (found in Settings tab, bottom of page)
+    - **API token** (found in Advanced Options tab)
+  </Accordion>
+</AccordionGroup>
+
+## Step 3: Test Your Integration
+
+Make a test donation on your campaign page to ensure the integration is working correctly.
