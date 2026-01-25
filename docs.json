@@ -24,8 +24,12 @@
           {
             "group": "Campaign Setup",
             "pages": [
+              "campaign-content",
+              "payment-tiers",
               "payment-gateway-integration",
-              "crm-integrations"
+              "crm-integrations",
+              "share-campaign",
+              "embed-campaign"
             ]
           },
           {
