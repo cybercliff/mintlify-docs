@@ -37,7 +37,7 @@
         ]
       },
       {
-        "group": "Support",
+        "group": "Contact & Support",
         "pages": [
           "support"
         ]
@@ -57,8 +57,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://mychaiclub.com"
+      "label": "Login",
+      "href": "https://mychaiclub.com/login"
     }
   },
   "footer": {
