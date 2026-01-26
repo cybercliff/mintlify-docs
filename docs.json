@@ -26,7 +26,7 @@
               "payment-tiers",
               "payment-gateway-integrations",
               "crm-integrations",
-              "share-campaign",
+              "edit-campaign-slug",
               "embed-campaign"
             ]
           },
@@ -109,7 +109,7 @@
     },
     {
       "source": "/app/page/1xH8gdR5MlH4deXAv_9ZHU53TGC7qnXLAew_UxdkS9PQ",
-      "destination": "/share-campaign"
+      "destination": "/edit-campaign-slug"
     },
     {
       "source": "/app/page/18UTzO5cZ_fV5o0gpTeSj_JbWo_x_xKc7IB5XgSaWcPY",
